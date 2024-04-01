@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hello", "Good day"],
+      "responses": ["Hello! How can I assist you today?", "Good day! How may I help you?", "Hi there! What can I do for you?"],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["Goodbye! Take care.", "See you later! Stay safe.", "Till next time! Have a great day."],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome! If you need further assistance, feel free to ask.", "My pleasure! Let me know if there's anything else I can do for you."],
+      "context": [""]
+    },
+    {
+      "tag": "digital_literacy",
+      "patterns": ["How can I improve my digital skills?", "I need help with using technology", "Can you assist me with digital literacy?", "What are some tips for using the internet?"],
+      "responses": ["Certainly! Here are some resources and tips to improve your digital skills:\n1. Take online courses or tutorials tailored to seniors.\n2. Practice using technology regularly to build familiarity.\n3. Join local community classes or workshops on digital literacy.\n4. Ask friends or family members for assistance and guidance.\nRemember, learning takes time and patience. Don't hesitate to reach out for help when needed!"],
+      "context": [""]
+    },
+    {
+      "tag": "healthcare_information",
+      "patterns": ["Where can I find reliable healthcare information online?", "How can I access medical resources on the internet?", "Can you help me find health-related information?"],
+      "responses": ["Absolutely! Here are some trusted websites where you can find reliable healthcare information:\n1. WebMD (www.webmd.com)\n2. Mayo Clinic (www.mayoclinic.org)\n3. Healthline (www.healthline.com)\n4. Centers for Disease Control and Prevention (www.cdc.gov)\nRemember to always verify information from multiple sources and consult with a healthcare professional for personalized advice."],
+      "context": [""]
+    },
+    {
+      "tag": "technology_assistance",
+      "patterns": ["I need help with my smartphone", "Can you guide me on using social media?", "How do I set up email on my device?", "Can you assist me with video calling?"],
+      "responses": ["Of course! I can provide guidance on various technology-related topics such as:\n1. Setting up and using smartphones, tablets, or computers.\n2. Navigating social media platforms like Facebook and WhatsApp.\n3. Configuring email accounts and managing your inbox.\n4. Conducting video calls using applications like Zoom or Skype.\nFeel free to ask specific questions, and I'll do my best to assist you!"],
+      "context": [""]
+    }
+  ]
+}
